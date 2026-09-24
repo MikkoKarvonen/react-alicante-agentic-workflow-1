@@ -15,6 +15,9 @@
   },
   "SessionDetail": {
     "trackLabel": "Track: {value}",
-    "levelLabel": "Nivel: {value}"
+    "levelLabel": "Nivel: {value}",
+    "like": "👍 Me gusta",
+    "likeSuccess": "¡Gracias!",
+    "likeError": "Algo salió mal"
   }
 }
