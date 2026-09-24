@@ -12,5 +12,9 @@
     "heading": "React Alicante Conference Companion",
     "line1": "Your schedule, your sessions —",
     "line2": "one place"
+  },
+  "SessionDetail": {
+    "trackLabel": "Track: {value}",
+    "levelLabel": "Level: {value}"
   }
 }

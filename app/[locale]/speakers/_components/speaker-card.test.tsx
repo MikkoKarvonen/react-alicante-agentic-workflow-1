@@ -11,6 +11,7 @@ function makeSession(overrides: Partial<Session>): Session {
     title: "Session",
     speaker: "Marta Fernandez",
     track: "React",
+    level: "beginner",
     room: "Main Hall",
     description: "",
     startTime: "09:00",
