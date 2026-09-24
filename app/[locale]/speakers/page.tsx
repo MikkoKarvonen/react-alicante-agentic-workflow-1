@@ -14,7 +14,11 @@ export default async function SpeakersPage() {
         Every speaker at the conference, and the sessions they&apos;re giving.
       </PageHeading>
 
-      <Grid gap="6" templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}>
+      <Grid
+        gap="6"
+        templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}
+        role="list"
+      >
         {speakerSessions.map((entry) => (
           <SpeakerCard key={entry.speaker} speakerSessions={entry} />
         ))}
