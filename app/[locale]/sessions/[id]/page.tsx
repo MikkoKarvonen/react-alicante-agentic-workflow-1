@@ -1,3 +1,4 @@
+import { LikeButtonArea } from "@/app/[locale]/sessions/[id]/_components/like-button-area";
 import { Badge } from "@/components/atoms/badge";
 import { Link } from "@/i18n/navigation";
 import { fetchSessionById, fetchSessions } from "@/services/sessions";
@@ -70,6 +71,8 @@ export default async function SessionDetailPage({
       <Text fontSize="md" lineHeight="relaxed" maxWidth="2xl">
         {session.description}
       </Text>
+
+      <LikeButtonArea sessionId={session.id} />
     </Flex>
   );
 }
